@@ -1,0 +1,54 @@
+#video{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    background-color: rgba(0,0,0,.4);   
+}
+
+.hero .content{
+    text-align: center;
+    position: absolute;
+    margin:auto;
+    width: 100%;
+    height: 100%;
+    top: 20vh;
+}
+
+.hero .content h1{
+    font-size: 10vw;
+    font-family: Berkshire Swash;
+    color:#fff;
+}
+
+.hero p{
+    font-size: 2vw;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    margin-bottom: 1.6rem;
+    letter-spacing: 1px;
+    color:#fff;
+}
+
+
+.hero .btn{
+    margin: 1rem 0.4rem;
+}
+
+@media screen and (max-width:640px){
+    .hero .content h1{
+        font-size: 15vw;
+    }
+
+    .hero p{
+        font-size: 3vw;
+}
+}

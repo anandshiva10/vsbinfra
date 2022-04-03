@@ -53,6 +53,7 @@
     background-color: var(--container-color);
     padding: 1rem;
     border-radius: 0.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .about__title{

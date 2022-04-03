@@ -22,9 +22,9 @@ function Projects(){
 
    
   return (
-    <div className="projects section" id='projects'>
-        <h2 className='section__title'>Our Projects</h2>
-        <span className='section__subtitle'>We have worked successfully in various parts of Telangana </span>
+    <div className="projects section" id='projects' >
+        <h2 className='section__title' data-aos="fade-up" >Our Projects</h2>
+        <span className='section__subtitle' data-aos="fade-in" data-aos-delay="100">We have worked successfully in various parts of Telangana </span>
 
         <Filter project={project} setFiltered={setFiltered} activeStatus={activeStatus} setActiveStatus={setActiveStatus}/>
 

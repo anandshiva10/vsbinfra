@@ -34,13 +34,13 @@ const Contact = () => {
 
   return (
     <div className='contact section' id="contact">
-      <h2 className="section__title">Contact Us</h2>
-        <span className='section__subtitle'>Get in touch</span>
+      <h2 className="section__title" data-aos="fade-up" data-aos-delay="500">Contact Us</h2>
+        <span className='section__subtitle' data-aos="fade-in" data-aos-delay="700">Get in touch with us</span>
 
         <div className="contact__container container grid">
-            <div className="contact__content">
-                <h3 className="contact__title">Talk to me</h3>
-                <div className="contact__info animate__animated animate__fadeInUp">
+            <div className="contact__content" data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="500">
+                <h3 className="contact__title">Reach us out</h3>
+                <div className="contact__info">
                     <div className="contact__card">
                     <i className="bx bx-mail-send contact__card-icon"></i>
                     <h3 className="contact__card-title">Email</h3>
@@ -48,7 +48,7 @@ const Contact = () => {
                     <a href="mailto:vdevelopersatvsbinfra@gmail.com" className="contact__button">Write me <i className='bx bx-right-arrow-alt contact__button-icon' ></i></a>
                     </div>
                 </div>
-                <div className="contact__info animate__animated animate__fadeInUp">
+                <div className="contact__info">
                     <div className="contact__card">
                     <i className='bx bx-phone contact__card-icon' ></i>
                     <h3 className="contact__card-title">Phone</h3>
@@ -57,20 +57,20 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <div className="contact__content">
-              <h3 className="contact__title form__title">Write us your project</h3>
+            <div className="contact__content" >
+              <h3 className="contact__title form__title" data-aos="fade-in" data-aos-easing="ease-in" data-aos-delay="500">Write us your project</h3>
                 <form ref={formRef} onSubmit={handleSubmit} className='contact__form'>
-                  <div className="contact__form-div">
+                  <div className="contact__form-div" data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="500">
                     <label for='' className='contact__form-tag'>Name</label>
                     <input type="text" placeholder='Enter your name' name="user_name" className="contact__form-input" />
                   </div>
 
-                  <div className="contact__form-div">
+                  <div className="contact__form-div" data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="500">
                     <label for='' className='contact__form-tag'>Email</label>
                     <input type="email" placeholder='Enter your Email' name="user_email" className="contact__form-input" />
                   </div>
 
-                  <div className="contact__form-div contact__form-area">
+                  <div className="contact__form-div contact__form-area" data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="500">
                     <label for='' className='contact__form-tag'>Message</label>
                     <textarea name="message" id="" cols="30" rows="10" placeholder='Write your Message' className="contact__form-input "></textarea>
                   </div>
@@ -87,7 +87,7 @@ const Contact = () => {
 
         <div class={isActive ? 'progress active' : 'progress'}></div>
     </div>
-                  <button type="submit" className="button">Send Message</button>
+                  <button data-aos="fade-in" data-aos-easing="ease-in" data-aos-delay="500" type="submit" className="button">Send Message</button>
                 </form>
             </div>
         </div>

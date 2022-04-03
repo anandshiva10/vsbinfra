@@ -14,7 +14,7 @@ function Filter({setActiveStatus,activeStatus,setFiltered,project}) {
   },[activeStatus]);
   return (
     <>
-    <div className="work__filters">
+    <div className="work__filters" data-aos="fade-in" data-aos-delay="200">
           <button className={activeStatus=== 0 ? "work__item active-work" : "work__item"} onClick={()=>setActiveStatus(0)}>All</button>
           <button  className={activeStatus=== 1 ? "work__item active-work" : "work__item"} onClick={()=>setActiveStatus(1)}>Ongoing</button>
           <button  className={activeStatus=== 2 ? "work__item active-work" : "work__item"} onClick={()=>setActiveStatus(2)}>Completed</button>

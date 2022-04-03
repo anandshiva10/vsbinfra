@@ -1,6 +1,7 @@
+import img1 from './assets/img/1.jpg'
 export const projects = [{
-    id: 1,
-    img: "https://i.ibb.co/HxRwR2x/Neel-Gardens.jpg",
+    id: "1",
+    img: require('./assets/img/1.jpg'),
     title: "Neel Gardens",
     site: "Yenkepally, Sadashivpet" ,
     points: "11 Acres DTCP Approved Layout,100 & 40 ft road face venture,33' & 40' wide with black top roads",
@@ -10,7 +11,7 @@ export const projects = [{
 },
 {   
     id: 2,
-    img: "https://i.ibb.co/CK3zkbg/ohana.jpg",
+    img: require('./assets/img/2.JPG'),
     title: "Ohana",
     site: "Gundlapochampally Road, Kompally" ,
     points: "RERA Approved Project,There are 64 units in Ohana,Plot size varies from 240 sq.yd. to 831.0 sq.yd.",
@@ -20,7 +21,7 @@ export const projects = [{
 },
 {
     id: 3,
-    img:"https://i.ibb.co/n0V8vgs/vlcsnap-2022-01-21-22h22m57s600.png" ,
+    img:require('./assets/img/3.jpg') ,
     title: "Dukes County",
     site: "Nandigama, Patancheru" ,
     points: "HMDA Approved Layout,5 mins from ORR,20 Mins from Patancheru",
@@ -30,7 +31,7 @@ export const projects = [{
 },
 {
     id: 4,
-    img: "https://i.ibb.co/ngCx5p3/gangagrandeur.jpg",
+    img: require('./assets/img/4.jpg'),
     title: "Ganga Grandeur",
     site: "Medchal" ,
     points: "HMDA Approved project , 167- acre Layout , 1700 Premium Residential Plots",
@@ -40,7 +41,7 @@ export const projects = [{
 },
 {   
     id: 5,
-    img: "https://i.ibb.co/VBwYH5n/gallant.jpg",
+    img: require('./assets/img/5.jpg'),
     title: "Gallant",
     site: "Mokilla, Hyderabad" ,
     points: "HMDA & RERA Approved Project,150 - 700 Sqyd,30 Mins from Patancheru",
